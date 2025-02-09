@@ -1,4 +1,4 @@
-const myObject = {
+/*const myObject = {
     property: 'Value!',
     otherProperty: 77,
     "obnoxious property": function() {
@@ -9,4 +9,25 @@ const myObject = {
 
 console.log(myObject.otherProperty);
 myObject["obnoxious property"]();
-console.log(myObject.property);
+console.log(myObject.property);*/
+
+/*const playerTwo = "Loki";
+const playerOneHealth = 100;
+const playerTwoHealth = 100;
+
+
+const playerOne = {
+  name: "Odin",
+};*/
+
+//object constructors
+function Player(name, health){
+  this.name = name;
+  this.health = health;
+  console.log(this.name);
+  console.log(this.health);
+}
+
+let player1 = new Player("Odin", 100);
+
+console.log(player1.name);
