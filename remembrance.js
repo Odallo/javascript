@@ -28,6 +28,6 @@ function Player(name, health){
   console.log(this.health);
 }
 
-let player1 = new Player("Odin", 100);
+let player1 = new Player("Mark", 100);
 
-console.log(player1.name);
+return(player1.name);
